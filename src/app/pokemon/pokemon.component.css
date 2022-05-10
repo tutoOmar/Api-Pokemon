@@ -1,0 +1,186 @@
+.info{
+
+  padding: 0px 0px;
+  margin: 0px;
+}
+
+.busqueda{
+  display: flex;
+  margin: 10px -5px ;
+  justify-content: space-around;
+}
+.text{
+  padding: 100%;
+}
+
+.imgPK{
+  width: 250px;
+
+}
+.container{
+
+  display:flex;
+  justify-content:space-between ;
+  justify-items: center;
+  align-items: center;
+}
+p{
+
+  color: azure;
+
+}
+h1{
+
+  text-align: center;
+  font-weight: bold;
+}
+.slider-tittle{
+  color: azure;
+}
+
+.tipos{
+
+  width: 100%;
+  height: 20px;
+  display: flex;
+
+}
+.type{
+  border-style: outset;
+  background-color: aqua;
+  border-radius: 15px;
+  border-color: none;
+  color: black;
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  margin: -2em 1em;
+}
+
+.card{
+
+  align-items: center;
+  height: 400px;
+  border-radius: 15px;
+  width: 390px;
+  background-image: url(/assets/image/mohu.png);
+}
+
+.card-text.name{
+
+  color:blanchedalmond;
+  color-interpolation-filters: linearRGB;
+  font-size: 2em;
+  margin: 10px;
+  margin-top: 15px;
+}
+.tipos{
+  justify-content: center;
+}
+
+.carousel{
+
+width: 350px;
+
+}
+.card-text{
+  color: white;
+  width: 80%;
+
+  }
+.ability{
+
+  font-size: 1em;
+  font-family: Arial Black  , Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 37px;
+  margin-top: 0%;
+}
+
+.classFire{
+  background-color:#f9a551;
+  border-color: #f9a551;
+}
+.classWater{
+  background-color:#559ee1;
+  border-color: #559ee1;
+}
+.classGrass{
+  background-color:#5fbd5a;
+  border-color: #5fbd5a;
+}
+.classBug{
+  background-color:#a3c42f;
+  border-color: #a3c42f;
+}
+.classDark{
+  background-color:#666c7b;
+  border-color:#666c7b ;
+}
+.classDragon{
+  background-color:#0770ca;
+  border-color: #0770ca;
+}
+.classElectric{
+  background-color:#f0d749;
+  border-color: #f0d749;
+}
+.classFairy{
+  background-color:#f095e4;
+  border-color: #f095e4;
+}
+.classFighting{
+  background-color:#d3455d;
+  border-color: #d3455d;
+}
+.classFlying{
+  background-color:#94afe0;
+  border-color: #94afe0;
+}
+.classGhost{
+  background-color:#5669b3;
+  border-color: #5669b3;
+}
+.classGround{
+  background-color:#db7f4c;
+  border-color:#db7f4c;
+}
+.classIce{
+  background-color:#72ccbe;
+  border-color: #72ccbe;
+}
+.classNormal{
+  background-color:#9b9ea2;
+  border-color: #9b9ea2;
+}
+.classPoison{
+  background-color:#b662cc;
+  border-color: #b662cc;
+}
+.classPsychic{
+  background-color:#f28b80;
+  border-color: #f28b80;
+}
+.classRock{
+  background-color:#c9bb8d;
+  border-color: #c9bb8d;
+}
+.classSteel{
+  background-color:#5595a3;
+  border-color: #5595a3;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+
+    display:flex;
+    flex-direction: column;
+
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+
+}

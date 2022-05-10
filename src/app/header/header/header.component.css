@@ -1,0 +1,30 @@
+
+*{
+  background-image: url("/assets/image/fondo.png");
+  width: 100%;
+}
+.navbar-brand{
+  text-align: center;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 300%;
+  color:rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand:hover{
+
+    color:rgb(241, 241, 241);
+}
+
+.img{
+
+  width: 10%;
+  height: 10%;
+}
+
+.navbar{
+  width: 100%;
+  margin: 0 10px;
+  background-color: aqua;
+
+}

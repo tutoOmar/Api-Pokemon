@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 50%; }
+body {
+  margin: 0;
+
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-image: url("/assets/image/fondo.png");
+  background-size: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background-size: 770px;
+    position: static;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  body{
+    background-size: 1000px;
+
+  }
+}
+
+

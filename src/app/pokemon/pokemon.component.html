@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="info">
+    <p>¿Cuál pokemon buscas?</p>
+    <div class="busqueda">
+      <input type="text" [(ngModel)]="name">
+      <button class="btn btn-success " (click)="search()">Buscar</button>
+    </div>
+    <div class="card" style="width: 18rem;" >
+      <div *ngIf="showImg">
+        <h1 class="card-text name">{{urlName}}</h1>
+        <img src="{{urlImage}}"
+             class="card-img-top imgPK"
+             alt="PhotoPokemon" >
+      </div>
+      <p class="card-text ability" *ngIf="showImg">Main Ability:  {{urlAbility}}</p>
+      <div class="card-body tipos">
+        <p class="card-text type1 type" *ngIf="showImg" [ngClass]="classType">{{urlTipo}}</p>
+        <p class="card-text type2 type" *ngIf="show" [ngClass]="classType2">{{urlTipo2}}</p>
+      </div>
+
+    </div>
+  </div>
+  <!--Aquí comienza el slider-->>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <h1 class="slider-tittle">Linea evolutiva de la semana</h1>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/image/001.png" class="d-block w-100" alt="poke1">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/image/002.png" class="d-block w-100" alt="poke2">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/image/003.png" class="d-block w-100" alt="poke3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>

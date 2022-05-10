@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="imagenes">
+    <img src="assets/image/catch.png" alt="atrapalos" class="image">
+    <img src="assets/image/arrow_curve.png" alt="arrow" class="image_arrow">
+    <p class="clic">clic here</p>
+
+  </div>
+  <button *ngIf="show" class="start" [routerLink]="['pokemon']" (click)="button()"></button>
+</div>
